@@ -1,0 +1,35 @@
+{
+  "id": "org.binay.megacatalog",
+  "version": "1.0.2",
+  "name": "Mega Catalog",
+  "description": "Netflix/Max-style catalog addon (Movies + TV + Regional). No streams provided, external addons supply links.",
+  "resources": ["catalog", "meta"],
+  "types": ["movie", "series"],
+  "catalogs": [
+    { "type": "movie", "id": "trending_movies", "name": "🔥 Trending Movies" },
+    { "type": "series", "id": "trending_series", "name": "🔥 Trending Series" },
+    { "type": "movie", "id": "top_rated_movies", "name": "⭐ Top Rated Movies" },
+    { "type": "series", "id": "top_rated_series", "name": "⭐ Top Rated Series" },
+    { "type": "series", "id": "tv_popular", "name": "🔥 Popular TV" },
+
+    { "type": "movie", "id": "action_movies", "name": "💥 Action & Adventure Movies" },
+    { "type": "movie", "id": "comedy_movies", "name": "😂 Comedy Movies" },
+    { "type": "movie", "id": "drama_movies", "name": "🎭 Drama Movies" },
+    { "type": "movie", "id": "horror_movies", "name": "👻 Horror & Mystery Movies" },
+    { "type": "movie", "id": "scifi_movies", "name": "🚀 Sci‑Fi & Fantasy Movies" },
+    { "type": "movie", "id": "crime_movies", "name": "🔪 Crime & Thriller Movies" },
+
+    { "type": "series", "id": "tv_action", "name": "💥 Action & Adventure TV" },
+    { "type": "series", "id": "tv_comedy", "name": "😂 Comedy TV" },
+    { "type": "series", "id": "tv_drama", "name": "🎭 Drama TV" },
+    { "type": "series", "id": "tv_horror", "name": "👻 Horror & Mystery TV" },
+    { "type": "series", "id": "tv_scifi", "name": "🚀 Sci‑Fi & Fantasy TV" },
+    { "type": "series", "id": "tv_crime", "name": "🔪 Crime & Thriller TV" },
+
+    { "type": "movie", "id": "indian_movies", "name": "🇮🇳 Indian Movies" },
+    { "type": "series", "id": "indian_series", "name": "🇮🇳 Indian Series" },
+    { "type": "series", "id": "kdramas", "name": "🇰🇷 K‑Dramas" },
+    { "type": "series", "id": "us_tv", "name": "🇺🇸 US TV" },
+    { "type": "series", "id": "uk_tv", "name": "🇬🇧 UK TV" }
+  ]
+}
